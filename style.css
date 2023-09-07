@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 960px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.box {
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  color: black;
+  border: 1px solid black;
+}
+
+#button {
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+}
